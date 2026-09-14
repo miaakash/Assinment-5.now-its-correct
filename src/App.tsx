@@ -34,6 +34,8 @@ function App() {
 
       <ToastContainer></ToastContainer>
 
+       <Footer></Footer>
+
       
     </>
   )
