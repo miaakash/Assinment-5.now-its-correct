@@ -31,6 +31,8 @@ function App() {
          <Technology technologyPromise  = {technologyPromise}></Technology>
       </Suspense>
       <ToastContainer></ToastContainer>
+
+      <Footer></Footer>
       
     </>
   )
