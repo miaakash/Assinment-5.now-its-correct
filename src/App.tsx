@@ -28,6 +28,11 @@ function App() {
       <Hero></Hero>
 
       
+      <Suspense fallback = {<h2 className='text-center'> Loading ......</h2>}>
+         <Technology technologyPromise  = {technologyPromise}></Technology>
+      </Suspense>
+
+      
     </>
   )
 }
